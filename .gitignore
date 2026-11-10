@@ -1,0 +1,4 @@
+out/
+test-out/
+SCAPMS.jar
+*.tmp

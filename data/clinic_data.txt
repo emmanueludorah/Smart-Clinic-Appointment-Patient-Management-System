@@ -1,0 +1,53 @@
+# SCAPMS-DATA v1
+# Saved 2026-11-10T11:59:14 - 15 patients
+# PATIENT|category|id|name|age|phone|email|registered|key=value...
+PATIENT|FOLLOW_UP|P0007|Fatima Bello|52|08177778888|fatima.bello@uni.edu|2026-01-14|lastVisit=2026-10-11|referringDoctor=Dr. Samuel Ade|interval=30
+PATIENT|EMERGENCY|P0002|Tunde Bakare|34|08022223333|tunde.bakare@uni.edu|2026-11-07|severity=4|condition=Severe asthma attack
+PATIENT|GENERAL|P0013|Samuel Etim|22|08188889999|samuel.etim@uni.edu|2026-10-11|insurance=None
+PATIENT|FOLLOW_UP|P0010|Kemi Adeyemi|61|08066667777|kemi.adeyemi@uni.edu|2025-10-06|lastVisit=2026-11-03|referringDoctor=Dr. Ngozi Eze|interval=7
+PATIENT|GENERAL|P0001|Adaeze Okafor|21|08031234567|adaeze.okafor@uni.edu|2026-07-13|insurance=NHIS
+PATIENT|GENERAL|P0015|Yusuf Garba|40|08122223333|yusuf.garba@uni.edu|2026-08-27|insurance=Hygeia HMO
+PATIENT|EMERGENCY|P0009|Zainab Yusuf|18|08144445555|zainab.yusuf@uni.edu|2026-11-10|severity=5|condition=Allergic reaction (anaphylaxis)
+PATIENT|FOLLOW_UP|P0004|Ibrahim Musa|45|07012345678|ibrahim.musa@uni.edu|2026-04-24|lastVisit=2026-10-31|referringDoctor=Dr. Ngozi Eze|interval=14
+PATIENT|GENERAL|P0011|Michael Obi|25|07033334444|michael.obi@uni.edu|2026-08-12|insurance=NHIS
+PATIENT|EMERGENCY|P0006|Emeka Nwosu|28|08055556666||2026-11-09|severity=2|condition=Sprained ankle (sports injury)
+PATIENT|GENERAL|P0003|Grace Mensah|19|08134567890|grace.mensah@uni.edu|2026-09-11|insurance=None
+PATIENT|EMERGENCY|P0014|Blessing Okon|30|08100001111|blessing.okon@uni.edu|2026-11-08|severity=3|condition=High fever and dehydration
+PATIENT|GENERAL|P0008|David Johnson|20|08099990000|david.j@uni.edu|2026-10-26|insurance=None
+PATIENT|FOLLOW_UP|P0012|Halima Sani|37|09011112222||2026-06-13|lastVisit=2026-10-20|referringDoctor=Dr. Samuel Ade|interval=21
+PATIENT|GENERAL|P0005|Chloe Adams|23|09087654321|chloe.adams@uni.edu|2026-09-26|insurance=AXA Mansard
+# APPOINTMENT|id|patientId|date|time|doctor|reason|status|urgent
+APPOINTMENT|A0014|P0007|2026-10-11|11:30|Dr. Samuel Ade|Diabetes check|COMPLETED|false
+APPOINTMENT|A0015|P0007|2026-09-11|11:30|Dr. Samuel Ade|Diabetes check|COMPLETED|false
+APPOINTMENT|A0016|P0007|2026-08-12|11:30|Dr. Samuel Ade|Diabetes check|COMPLETED|false
+APPOINTMENT|A0017|P0007|2026-11-10|16:00|Dr. Samuel Ade|Diabetes review|PENDING|false
+APPOINTMENT|A0005|P0002|2026-11-10|08:15|Dr. Samuel Ade|Asthma - nebulisation|COMPLETED|true
+APPOINTMENT|A0006|P0002|2026-11-10|12:19|Dr. Samuel Ade|Asthma review|PENDING|true
+APPOINTMENT|A0027|P0013|2026-11-13|11:15|Dr. Ngozi Eze|Vaccination|PENDING|false
+APPOINTMENT|A0021|P0010|2026-11-03|10:00|Dr. Ngozi Eze|Post-surgery check|COMPLETED|false
+APPOINTMENT|A0022|P0010|2026-10-27|10:00|Dr. Ngozi Eze|Post-surgery check|COMPLETED|false
+APPOINTMENT|A0023|P0010|2026-11-10|10:00|Dr. Ngozi Eze|Post-surgery review|PENDING|false
+APPOINTMENT|A0001|P0001|2026-08-12|09:00|Dr. Aisha Lawal|Malaria symptoms|COMPLETED|false
+APPOINTMENT|A0002|P0001|2026-10-01|10:30|Dr. Aisha Lawal|Malaria review|COMPLETED|false
+APPOINTMENT|A0003|P0001|2026-11-05|11:00|Dr. Ngozi Eze|Headache|COMPLETED|false
+APPOINTMENT|A0004|P0001|2026-11-12|09:30|Dr. Aisha Lawal|General check-up|PENDING|false
+APPOINTMENT|A0030|P0015|2026-11-09|16:30|Dr. Samuel Ade|Back pain|CANCELLED|false
+APPOINTMENT|A0019|P0009|2026-11-10|07:40|Dr. Ngozi Eze|Emergency allergy treatment|COMPLETED|true
+APPOINTMENT|A0020|P0009|2026-11-11|08:30|Dr. Ngozi Eze|Allergy review|PENDING|true
+APPOINTMENT|A0009|P0004|2026-10-31|13:00|Dr. Ngozi Eze|Blood pressure|COMPLETED|false
+APPOINTMENT|A0010|P0004|2026-11-14|13:00|Dr. Ngozi Eze|BP follow-up|PENDING|false
+APPOINTMENT|A0024|P0011|2026-11-07|09:00|Dr. Aisha Lawal|Eye strain|COMPLETED|false
+APPOINTMENT|A0025|P0011|2026-11-16|09:00|Dr. Aisha Lawal|Eye test|PENDING|false
+APPOINTMENT|A0013|P0006|2026-11-10|09:45|Dr. Aisha Lawal|Ankle X-ray|COMPLETED|true
+APPOINTMENT|A0007|P0003|2026-10-21|14:00|Dr. Aisha Lawal|Skin rash|COMPLETED|false
+APPOINTMENT|A0008|P0003|2026-11-11|10:00|Dr. Aisha Lawal|Rash review|PENDING|false
+APPOINTMENT|A0028|P0014|2026-11-10|11:00|Dr. Aisha Lawal|IV fluids|COMPLETED|true
+APPOINTMENT|A0029|P0014|2026-11-11|11:00|Dr. Aisha Lawal|Fever review|PENDING|true
+APPOINTMENT|A0018|P0008|2026-11-10|12:00|Dr. Ngozi Eze|Fever|CANCELLED|false
+APPOINTMENT|A0026|P0012|2026-10-20|14:30|Dr. Samuel Ade|Physiotherapy|COMPLETED|false
+APPOINTMENT|A0011|P0005|2026-10-29|15:30|Dr. Samuel Ade|Sports physical|CANCELLED|false
+APPOINTMENT|A0012|P0005|2026-11-10|15:30|Dr. Samuel Ade|Sports physical|PENDING|false
+# QUEUE|patientId|joinedAt
+QUEUE|P0012|2026-11-10T11:37:14
+QUEUE|P0014|2026-11-10T11:50:14
+QUEUE|P0003|2026-11-10T11:56:14
